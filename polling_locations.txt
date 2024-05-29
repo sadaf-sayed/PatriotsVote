@@ -1,0 +1,12 @@
+const pollingLocations = [
+  { name: "Mt. Vernon Governmental Center", address: "2511 Parkers Lane Alexandria, 22306", lat: 38.85411945, lon: -77.07698375239924 },
+  { name: "Fairfax County Government Center", address: "12000 Government Center Pkwy Fairfax 22035", lat: 38.7416188, lon: -77.35682190755682 },
+  { name: "North County Governmental Center", address: "1801 Cameron Glen Drive Reston, 20190", lat: 38.9632474, lon: -77.36028261845259},
+  { name: "Burke Centre Library", address: "5935 Freds Oak Road, Burke 22015", lat: 38.7874391, lon: -77.31712384341408 },
+  { name: "Centreville Regional Library", address: "14200 St. Germain Drive, Centreville 20121", lat: 38.83746025, lon: -77.44085763433782 },
+  { name: "Franconia Governmental Center", address: "6121 Franconia Rd, Alexandria 22310", lat: 38.78092565, lon: -77.14795225046302 },
+  { name: "Great Falls Library", address: "9830 Georgetown Pike, Great Falls 22066", lat: 38.9983211, lon: -77.28695566577616 },
+  { name: "Herndon-Fortnightly Library", address: "768 Center Street, Herndon 20170", lat: 38.971830499999996, lon: -77.38710277994139 },
+  { name: "Lorton Community Center", address: "9520 Richmond Highway, Lorton 22079", lat: 38.69870605, lon: -77.21363995621178 },
+  { name: "Mason Governmental Center", address: "6507 Columbia Pike, Annandale 22003", lat: 38.837531850000005, lon: -77.16393220376068 }
+];

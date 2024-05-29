@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #63a16a;
+  
+
+}
+
+h1{
+  color: #f2c51f;
+  font-weight: bold;
+  text-align: center;
+  
+  
+  
+}
+
+.title {
+  color: green; /* Green text color */
+  font-size: 50px; /* Size of the text */
+  text-shadow: 
+    -1px -1px 0 #f2c51f,  
+     1px -1px 0 #f2c51f,
+    -1px  1px 0 #f2c51f,
+     1px  1px 0 #f2c51f; /* Yellow simulated border effect */
+}
+
+
+.container {
+  background-color: rgb(57, 112, 56);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-block; /* Allows padding and margins */
+  background-color: #186318;
+  color: #f2c51f;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; /* Removes underline from links */
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+.button:hover {
+  background-color: darkgreen; /* Darker green background on hover */
+  color: lightyellow; /* Lighter yellow text on hover */
+}
+
+
+.bottomContainer{
+
+  h1{
+    font-size: 50px;
+    font-family: cursive;
+    margin-top: 100px;
+  }
+
+  
+}
+

@@ -1,0 +1,26 @@
+
+.message-board {
+    position: relative; /* Set position to relative */
+    width: calc(100% - 80px); /* Adjusted width */
+    height: 100%;
+    background-color: #cabe6d;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+    top: 0;
+    left: 80px; /* Adjusted left position */
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#chatInput {
+    position: fixed; /* Set position to absolute */
+    bottom: 10px; /* Adjusted bottom position */
+    width: 500px; /* Adjusted width */
+    padding: 10px;
+    
+}

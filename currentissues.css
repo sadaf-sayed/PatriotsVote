@@ -1,0 +1,80 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #63a16a;
+
+
+}
+
+h1{
+  text-align: center;
+  color: #d7c23c;
+}
+
+
+.container {
+  background-color: rgb(57, 112, 56);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.optionsContainer{
+
+    background-color: rgb(57, 112, 56);
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+
+  .button {
+    display: inline-block; /* Allows padding and margins */
+    background-color: #186318;
+    color: #f2c51f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+
+  .button:hover {
+    background-color: darkgreen; /* Darker green background on hover */
+    color: lightyellow; /* Lighter yellow text on hover */
+  }
+
+
+}
+
+.buttonContainer{
+
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 50px;
+
+  button{
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: gold ;
+    background-color: #154c15;
+    border: 5px solid #092f09;
+    line-height: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+    
+  }
+
+  button:hover {
+    background-color: darkgreen; /* Darker green background on hover */
+    color: #b1b195; /* Lighter yellow text on hover */
+  }
+  
+}

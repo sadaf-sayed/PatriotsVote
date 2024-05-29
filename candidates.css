@@ -1,0 +1,314 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #63a16a;
+
+
+}
+
+h1{
+  text-align: center;
+  color: #d7c23c;
+
+}
+
+.container{
+  background-color: rgb(57, 112, 56);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.optionsContainer{
+
+    background-color: rgb(57, 112, 56);
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+
+  .button {
+    display: inline-block; /* Allows padding and margins */
+    background-color: #186318;
+    color: #f2c51f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+
+  .button:hover {
+    background-color: darkgreen; /* Darker green background on hover */
+    color: lightyellow; /* Lighter yellow text on hover */
+  }
+
+  
+}
+
+
+.buttonContainer{
+
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 50px;
+
+  button{
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: gold ;
+    background-color: #154c15;
+    border: 5px solid #092f09;
+    line-height: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+
+  }
+
+  button:hover {
+    background-color: darkgreen; /* Darker green background on hover */
+    color: #b1b195; /* Lighter yellow text on hover */
+  }
+
+}
+
+.topContainer{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 10px; 
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bottomContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 10px; 
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+
+
+
+
+
+.bidenContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  
+  #biden{
+     background-image: url('https://www.whitehouse.gov/wp-content/uploads/2021/04/P20210303AS-1901-cropped.jpg');
+
+    background-size: 140%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  #biden:hover{
+    transform: scale(1.1);
+  }
+
+}
+
+.trumpContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #trump{
+     background-image: url('https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait-620x620.jpg');
+
+    background-size: 100%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+  
+    #trump:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+.kennedyContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #kennedy{
+     background-image: url('https://m.media-amazon.com/images/S/amzn-author-media-prod/u9gha2a0cps20n8g1pplsiqnt9.jpg');
+
+    background-size: 100%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #kennedy:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+.phillipsContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #phillips{
+     background-image: url('https://phillips.house.gov/uploadedfiles/export_files/wysiwyg_uploaded/117th%20head%20shot_medium.jpg');
+
+    background-size: 100%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #phillips:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+
+.haleyContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #haley{
+     background-image: url('https://www.usnews.com/dims4/USNEWS/f747f56/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F25%2Fb2%2F99c0eba846c1ac7d59362279bd3c%2Fgettyimages-1244242684.jpg');
+
+    background-size: 170%; 
+    background-position: left;
+    background-position-x: 10px;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #haley:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+.westContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #west{
+     background-image: url('https://i.abcnewsfe.com/a/a8f9016c-18ec-4ac6-a5b0-9f496f9f56e0/Cornel-West-2-gty-thg-230818_1692379568566_hpMain.jpg');
+
+    background-size: 150%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #west:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+.binkleyContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #binkley{
+     background-image: url('https://binkley2024.com/wp-content/uploads/2023/07/ryan.jpg');
+    background-size: 180%; 
+    background-position: center;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #binkley:hover{
+      transform: scale(1.1);
+    }
+}
+
+  .steinContainer{
+  display: flex;
+  justify-content: center; /* Horizontally center aligns its children */
+  align-items: center; /* Vertically center aligns its children */
+  flex-direction: column;
+  h2{
+    text-align: center;
+  }
+  #stein{
+     background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2016_11/1463891/160318-jill-stein-green-party-yh-1145a.jpg');
+    background-size: 150%; 
+    background-position: -60px;
+    background-position-y: -5px;
+    width: 150px; 
+    height: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    }
+    #stein:hover{
+      transform: scale(1.1);
+    }
+
+}
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+  <link href="messageboard.css" rel="stylesheet"     type="text/css" />
+    <style>
+
+      
+        body {
+          
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Prevents scroll bars */
+            margin: 0;
+            padding: 0;
+        }
+        .message-board {
+            width: calc(100% - 80px); /* Adjusted width */
+            height: 100%;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 80px; /* Adjusted left position */
+            transition: transform 0.3s ease;
+            transform: translateX(0);
+        }
+        .message-board.hidden {
+            transform: translateX(-100%);
+        }
+        .toggle-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 150px; /* Width of the buttons container */
+            height: 100%;
+            background-color: darkgreen;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .toggle-button {
+            width: 100px; /* Width of each button */
+            height: 40px; /* Height of each button */
+            background-color: forestgreen;
+            color: yellowgreen
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px; /* Adjusted margin */
+            cursor: pointer;
+            outline: none;
+            font-family: timesnewroman;
+        }
+        .toggle-button:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+
+
+  
+    <div class="message-board" id="messageBoard">
+        <!-- Your message board content here -->
+
+       <input type="text" id="chatInput" placeholder="Say Something!" style="border-radius: 5px; margin-bottom: 15px;">
+
+    </div>
+    <div class="toggle-container">
+        <button class="toggle-button" onclick="toggleChatBox()"> Voting Issues </button>
+        <button class="toggle-button" onclick="toggleChatBox()"> Policies </button>
+        <button class="toggle-button" onclick="toggleChatBox()"> Upcoming Election </button>
+       <button class="toggle-button" onclick="toggleChatBox()"> + </button>
+        <!-- Add more buttons as needed -->
+    </div>
+
+    <script>
+        function toggleChatBox() {
+            var messageBoard = document.getElementById("messageBoard");
+            messageBoard.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>

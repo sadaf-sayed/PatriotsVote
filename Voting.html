@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Address to Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="Voting.css" /> <!-- Reference to your external CSS file -->
+</head>
+  <h1 class="title">Patriot Votes</h1>
+
+  <div class="container">
+    <!-- Your content here will have the styles defined in style.css -->
+    <a href="canInfo.html" class="button">2024 Candidates</a>
+
+    <a href="Voting.html" class="button"> Your Ride to Vote </a>
+    
+    <a href="PatriotPlatform.html" class="button">Patriot Platform</a>
+
+    <a href="index.html" class="button">Home</a>
+
+  </div>
+
+  <div id="map" style="width: 600px; height: 400px; margin: 20px auto 0;"></div>
+ 
+  
+  <input type="text" id="addressInput" placeholder="Enter an address" style="border-radius: 5px; margin-bottom: 15px;">
+  
+  <button id=mapbutton onclick="geocodeAddress()">Show on Map</button>
+
+  
+  <input type="text" id="nearestPollingPlace" readonly>
+  
+  <!-- Uber Button -->
+  <button id="uberButton">
+    <img src="https://helios-i.mashable.com/imagery/articles/03y6VwlrZqnsuvnwR8CtGAL/hero-image.fill.size_1200x675.v1623372852.jpg" alt="Uber" style="height: 30px; width: auto;"> <!-- Adjust the src to your Uber logo image path -->
+  </button>
+
+  <!-- Lyft Button -->
+  <button id="lyftButton">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/2560px-Lyft_logo.svg.png" alt="Lyft" style="height: 30px; width: auto;"> <!-- Adjust the src to your Lyft logo image path -->
+  </button>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="geocode.js"></script> <!-- Reference to your external JS file -->
+  <script>
+    // Initialize the map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+  </script>
+</body>
+</html>

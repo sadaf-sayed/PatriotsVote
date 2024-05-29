@@ -1,0 +1,145 @@
+
+
+/* voting.css */
+body {
+   background-color: rgb(57, 112, 56);
+}
+
+h1{
+  color: #f2c51f;
+  font-weight: bold;
+  text-align: center;
+
+
+
+}
+
+.title {
+  color: green; /* Green text color */
+  font-size: 50px; /* Size of the text */
+  text-shadow: 
+    -1px -1px 0 #f2c51f,  
+     1px -1px 0 #f2c51f,
+    -1px  1px 0 #f2c51f,
+     1px  1px 0 #f2c51f; /* Yellow simulated border effect */
+}
+
+#map {
+    margin-top: 20px; /* Move the map down by 20px to avoid touching the top container */
+}
+
+
+
+#addressInput {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center; /* Center align text within the textbox */
+    margin: 0 auto; /* Center the textbox */
+    display: block;
+    margin-top: 10px;
+}
+
+#nearestPollingPlace {
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center; /* Center align text within the textbox */
+    width: 200px; /* Increase width to match addressInput */
+    margin: 0 auto; /* Center the textbox */
+}
+
+
+
+.container {
+    background-color: rgb(57, 112, 56);
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mapbutton{
+
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center; /* Center align text within the textbox */
+  margin: 0 auto; /* Center the textbox */
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block; /* Allows padding and margins */
+    background-color: #186318;
+    color: #f2c51f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    transition: background-color 0.3s, color 0.3s;
+   
+
+}
+
+.button:hover {
+    background-color: darkgreen; /* Darker green background on hover */
+    color: lightyellow; /* Lighter yellow text on hover */
+}
+
+
+
+#uberButton {
+    background-color: black; /* Set background color to black */
+    border: 2px solid #000; /* Black border */
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 50px;
+    width: 200px;
+}
+
+
+
+#uberButton:hover {
+    background-color: white; /* Light grey background on hover */
+    border-color: #white; /* Darker border on hover */
+    border-width: 2px;
+}
+
+#uberButton:active {
+    background-color: black; /* Darker grey background when clicked */
+    border-color: white; /* Even darker border when clicked */
+  border-width: 2px;
+}
+
+#lyftButton {
+    background-color: white; /* Lyft pink background */
+    border: 2px solid #FF00BF; /* Lyft pink border */
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add space above */
+    width: 200px;
+}
+
+#lyftButton:hover {
+    background-color: lightpink; /* Lighter pink background on hover */
+    border-color: #white; 
+}
+
+#lyftButton:active {
+    background-color: #b1165e; /* Darker pink background when clicked */
+    border-color:#white;
+  border-width: 2px;
+}

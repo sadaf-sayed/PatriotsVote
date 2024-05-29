@@ -1,0 +1,114 @@
+h1 {
+  color: #f2c51f;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title {
+  color: green; /* Green text color */
+  font-size: 50px; /* Size of the text */
+  text-shadow: 
+    -1px -1px 0 #f2c51f,  
+     1px -1px 0 #f2c51f,
+    -1px  1px 0 #f2c51f,
+     1px  1px 0 #f2c51f; /* Yellow simulated border effect */
+}
+
+.optionsContainer {
+  background-color: rgb(57, 112, 56);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block; /* Allows padding and margins */
+  background-color: #186318;
+  color: #f2c51f;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; /* Removes underline from links */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: darkgreen; /* Darker green background on hover */
+  color: lightyellow; /* Lighter yellow text on hover */
+}
+
+.buttonContainer {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.buttonContainer button {
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: gold;
+  background-color: #154c15;
+  border: 5px solid #092f09;
+  line-height: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonContainer button:hover {
+  background-color: darkgreen; /* Darker green background on hover */
+  color: #b1b195; /* Lighter yellow text on hover */
+}
+
+/* Added from HTML inline styles */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: darkolivegreen;
+}
+
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: gold;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group input[type="submit"] {
+  width: 100px;
+  background-color: darkgreen;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: green;
+}
